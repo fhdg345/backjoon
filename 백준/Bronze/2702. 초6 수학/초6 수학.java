@@ -10,19 +10,19 @@ public class Main{
         for (int i = 0; i < n; ++i) {
             int a = sc.nextInt();
             int b = sc.nextInt();
-            int k = GCD(a, b);
+            int k = max(a, b);
             System.out.print(a * b / k + " ");
             System.out.println(k);
         }
  
     }
  
-    public static int GCD(int a, int b) {
+    public static int max(int a, int b) {
         if (a % b == 0) {
             return b;
         }
  
-        return GCD(b, a % b);
+        return max(b, a % b);
  
     }
 }
