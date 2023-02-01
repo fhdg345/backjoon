@@ -1,3 +1,5 @@
+//구글링 해서 문제 풀었으므로 !다시 풀기!
+//charAt 검색 후 공부하기 
 import java.util.*;
 
 class Main {
