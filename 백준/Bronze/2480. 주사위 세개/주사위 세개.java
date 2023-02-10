@@ -20,7 +20,7 @@ public class Main {
             System.out.println(1000+dice1*100);
         else if (dice2==dice3)
             System.out.println(1000+dice2*100);
-        else if(dice1 != dice2 && dice2 != dice3 && dice1 !=dice3)
+        else
             System.out.println(max*100);
 
     }
