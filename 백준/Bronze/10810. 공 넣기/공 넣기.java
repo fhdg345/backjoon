@@ -1,0 +1,21 @@
+import java.util.Arrays;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int [] arr = new int [n];
+        for (int a = 0; a < m; a++) {
+            int i = sc.nextInt();
+            int j = sc.nextInt();
+            int k = sc.nextInt();
+            for (int l = i-1; l <j; l++) {
+                arr[l]=k;
+            }
+        }
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i]+" ");
+        }
+    }
+}
